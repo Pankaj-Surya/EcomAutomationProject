@@ -22,7 +22,7 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    goals: 'mvn compiler:compile'
+    goals: 'mvn org.apache.maven.plugins:maven-compiler-plugin:compile'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
 
