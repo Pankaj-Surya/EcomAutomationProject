@@ -16,7 +16,7 @@ steps:
   displayName: 'Print Current Directory'
 - task: Maven@3
   inputs:
-    mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/MyStore/pom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
