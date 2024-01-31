@@ -10,6 +10,10 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- script: |
+    echo "Current Working Directory: $(System.DefaultWorkingDirectory)"
+    ls -R $(System.DefaultWorkingDirectory)
+  displayName: 'Print Current Directory'
 - task: Maven@3
   inputs:
     mavenPomFile: '$(System.DefaultWorkingDirectory)/pom.xml'
