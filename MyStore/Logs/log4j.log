@@ -865,3 +865,7 @@
 2024-01-18 21:49:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2024-01-18 21:49:16 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2024-01-18 21:49:16 DEBUG cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/91773/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2024-01-31 17:52:55 INFO  Log:11 - =====================================Started loginTestWithValidCreds TEST START=========================================
+2024-01-31 17:52:55 INFO  Log:22 - Validating URL
+2024-04-15 15:12:58 INFO  Log:11 - =====================================Started loginTestWithValidCreds TEST START=========================================
+2024-04-15 15:12:58 INFO  Log:22 - Validating URL
